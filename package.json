@@ -1,0 +1,18 @@
+{
+  "name": "babylon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node run.js && babel test/run/baz.js -o test/compiled/baz.js && babel test/run/case.js -o test/compiled/case.js && node test/compiled/case.js",
+    "test": "babel test/baz.js -o test/compiled/baz.js && babel test/case.js -o test/compiled/case.js && node test/compiled/case.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
