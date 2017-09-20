@@ -19,6 +19,12 @@ Error: test
 ---
 Input:
 ```js
+export default () => {
+    throw new Error('test');
+};
+```
+Changes to this:
+```js
 let baz = () => {
     throw new Error('test');
 };
