@@ -1,5 +1,5 @@
 # Export Extensions
-This babylon plugin adds a name to the default export so that you can see it in the stack trace.
+I created this babylon plugin to address [this question](https://github.com/babel/babylon/issues/706). It adds a name to the default export so that you can see it in the stack trace.
 
 ## What it does
 ### Without plugin:
